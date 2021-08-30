@@ -1,0 +1,5 @@
+[build]
+    command = "# no build command"
+    functions = "netlify/functions"
+[dev]
+  autoLaunch = false
