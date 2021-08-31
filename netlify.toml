@@ -5,5 +5,5 @@
 [dev]
   autoLaunch = false
 [template.environment]
-PAYPAL_CLIENT_ID= "Your PayPal API client ID"
-PAYPAL_SECRET="Your PayPal API secret"
+PAYPAL_CLIENT_ID= "Your PayPal Sandbox App's client ID"
+PAYPAL_SECRET="Your PayPal Sandbox App's API Secret"
