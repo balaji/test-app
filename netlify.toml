@@ -1,6 +1,7 @@
 [build]
     command = "cd netlify && cd functions && npm i"
     functions = "netlify/functions"
+    publish ="."
 [dev]
   autoLaunch = false
 [template.environment]
