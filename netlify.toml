@@ -3,3 +3,6 @@
     functions = "netlify/functions"
 [dev]
   autoLaunch = false
+[template.environment]
+PAYPAL_CLIENT_ID= "Your PayPal API client ID"
+PAYPAL_SECRET="Your PayPal API secret"
