@@ -3,9 +3,9 @@
     functions = "netlify/functions"
     publish ="."
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "test.com"
+    for = "/*"
+    [headers.values]
+        Access-Control-Allow-Origin = "test.com"
 [dev]
   autoLaunch = false
 [template.environment]
