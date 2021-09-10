@@ -2,6 +2,10 @@
     command = "cd netlify && cd functions && npm i"
     functions = "netlify/functions"
     publish ="."
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "test.com"
 [dev]
   autoLaunch = false
 [template.environment]
